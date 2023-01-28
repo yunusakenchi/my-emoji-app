@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+#emoji-input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+}
+
+#emoji-input::placeholder {
+    text-align: center;
+}
+
+#emoji-input:focus {
+    outline: none;
+}
+
+.emoji {
+    margin-right: 10px;
+    font-size: 35px;
+}
+button {
+    color: white;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+button#push-btn, button#unshift-btn {
+    background: green;
+}
+button#pop-btn, button#shift-btn {
+    background: red;
+}
